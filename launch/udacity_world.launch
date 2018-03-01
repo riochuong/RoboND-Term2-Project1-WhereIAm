@@ -25,7 +25,7 @@
 
   <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false"
 output="screen" args="-urdf -param robot_description -model udacity_my_robot"/>
-   <node name="rviz" pkg="rviz" type="rviz" respawn="false" args=" -d ~/catkin_ws/src/udacity_bot/launch/Rvizconfig.rviz"/>
+   <!-- <node name="rviz" pkg="rviz" type="rviz" respawn="false" args=" -d ~/catkin_ws/src/udacity_bot/launch/Rvizconfig.rviz"/> -->
 
 
 </launch>

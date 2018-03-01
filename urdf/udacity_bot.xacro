@@ -2,7 +2,7 @@
 
 <robot name="udacity_my_bot" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-  <!-- <xacro:include filename="$(find udacity_bot)/urdf/udacity_bot.gazebo"/> -->
+  <xacro:include filename="$(find udacity_my_robot)/urdf/udacity_bot.gazebo"/>
   <link name="robot_footprint"></link>
 
   <joint name="robot_footprint_joint" type="fixed">
@@ -263,7 +263,7 @@
 
     <visual name='hokuyo_visual'>
       <geometry>
-          <mesh filename="package://udacity_bot/meshes/hokuyo.dae"/>
+          <mesh filename="package://udacity_my_robot/meshes/hokuyo.dae"/>
       </geometry>
     </visual>
 
