@@ -8,8 +8,8 @@
       <updateRate>5</updateRate>
       <leftJoint>left_back_wheel_hinge</leftJoint>
       <rightJoint>right_back_wheel_hinge</rightJoint>
-      <wheelSeparation>0.7</wheelSeparation>
-      <wheelDiameter>0.24</wheelDiameter>
+      <wheelSeparation>0.5</wheelSeparation>
+      <wheelDiameter>0.20</wheelDiameter>
       <torque>20</torque>
       <commandTopic>cmd_vel</commandTopic>
       <odometryTopic>odom</odometryTopic>
