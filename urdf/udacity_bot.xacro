@@ -34,7 +34,7 @@
     <visual name='chassis_visual'>
       <origin xyz="0 0 0.15" rpy=" 0 0 0"/>
       <geometry>
-        <box size=".4 .3 .11"/>
+        <box size=".35 .3 .11"/>
       </geometry>
     </visual>
 
@@ -44,7 +44,7 @@
 
   <link name='left_back_wheel'>
 
-    <inertial>
+   <inertial>
       <mass value="2.0"/>
       <origin xyz="0 0 0" rpy=" 0 1.5707 1.5707"/>
       <inertia
@@ -119,7 +119,7 @@
     <parent link="chassis"/>
     <axis xyz="0 1 0" rpy="0 0 0"/>
     <limit effort="10000" velocity="1000"/>
-    <joint_properties damping="1.0" friction="1.5"/>
+    <joint_properties damping="1.0" friction="1.0"/>
   </joint>
 
 
@@ -197,7 +197,7 @@
     <parent link="chassis"/>
     <axis xyz="0 1 0" rpy="0 0 0"/>
     <limit effort="10000" velocity="1000"/>
-    <joint_properties damping="1.0" friction="1.5"/>
+    <joint_properties damping="1.0" friction="1.0"/>
   </joint>
 
   <!-- CAMERA -->
@@ -270,7 +270,7 @@
   </link>
 
   <joint type="fixed" name="hokuyo_joint">
-    <origin xyz="-0.07 0 0.3" rpy="0 0 0"/>
+    <origin xyz="0.1 0 0.3" rpy="0 0 0"/>
     <child link="hokuyo"/>
     <parent link="chassis"/>
     <axis xyz="0 0 0" rpy="0 0 0"/>

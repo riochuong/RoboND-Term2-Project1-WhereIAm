@@ -1,4 +1,0 @@
-[0m[ INFO] [1520226452.889184546, 1525.353000000]: Waiting for the move_base action server[0m
-[0m[ INFO] [1520226453.151612963, 1525.558000000]: Connected to move_base server[0m
-[0m[ INFO] [1520226453.151668812, 1525.558000000]: Sending goal[0m
-[0m[ INFO] [1520226778.313678502, 1764.558000000]: Excellent! Your robot has reached the goal position.[0m
